@@ -9,7 +9,6 @@ sigma = {
 
 
 def make_automaton(initial_state, sigma, valid_states):
-    
     def automaton(string):
         states = {initial_state}
         for c in string:
