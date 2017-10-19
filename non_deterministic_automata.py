@@ -1,3 +1,9 @@
+# The key difference between
+# deterministic automata and
+# non deterministic automata
+# is instead each state has only
+# one next state it has many
+
 sigma = {
     ("Q0", "0"): {"Q1"}, 
     ("Q1", "0"): {"Q2"},
